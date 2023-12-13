@@ -1,0 +1,13 @@
+.popup {
+    /* Your initial styles for the popup */
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+  
+  .popup.show {
+    /* Additional styles for the shown popup */
+    opacity: 1;
+    transform: scale(1);
+  }
+  

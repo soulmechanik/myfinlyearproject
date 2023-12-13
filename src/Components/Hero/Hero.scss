@@ -1,0 +1,161 @@
+.Hero_wrapper{
+ 
+    width: 100%;
+    padding-top: 20px;
+    position: relative;
+
+
+   
+.Hero_container{
+
+ 
+max-width: 80%;
+    margin: auto;
+
+
+
+    .Hero{
+       gap: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        max-width: 80%;
+        margin: auto;
+        position: relative;
+
+
+        h1{
+            font-size: 3rem;
+            font-weight: 600;
+            
+           
+        }
+
+        p{
+            line-height: 1.5;
+            font-size: .875rem;;
+
+        }
+
+        .bottons_Container{
+            display: flex;
+            gap: 1rem;
+            align-content: center;
+            justify-content: center;
+        
+
+
+            .botton1{
+                cursor: pointer;
+                border: 1px solid black;
+                background-color: black;
+                color: white !important;
+                text-align: center;
+                border-radius: 12px;
+                padding: 0.75rem 1.25rem;
+                font-weight:600;
+            }
+            .botton2{
+          
+                color: white;
+                font-weight:600;
+                cursor: pointer;
+                border: 1px solid teal;
+                background-color: #188178;
+        
+                text-align: center;
+                border-radius: 12px;
+                padding: 0.75rem 1.25rem;
+            }
+        }
+    }
+
+}
+
+
+}
+
+.headerimage{
+    width: 60px;
+    position: absolute;
+    top: -145px;
+    right: -60px;
+
+}
+.heroimage2{
+    width: 60px;
+    position: absolute;
+    top: -145px;
+    left: -60px;
+
+
+}
+
+.second_paragraph{
+    font-size: 1.175rem !important;
+}
+
+.smalls{
+    font-size: 15px;
+}
+
+.fyw{
+    background: -webkit-linear-gradient(#0d1f0d, rgb(32, 32, 11));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    .Hero_wrapper{
+
+
+
+
+        .Hero_container{
+
+
+
+            .Hero{
+
+                padding-top: 40px;
+                margin-bottom: 70px;
+              
+                max-width: 100%;
+
+                
+            
+           
+
+               
+            }
+        }
+
+
+        .botton1{
+          padding: 1.5rem 2rem !important;
+    
+        }
+        .botton2{
+          padding: 1.5rem 2rem !important;
+    
+        }
+    }
+
+
+    
+
+   
+}
+
+.wicon{
+    width: 10px;
+}
