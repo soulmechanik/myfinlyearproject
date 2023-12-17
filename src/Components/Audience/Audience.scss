@@ -1,20 +1,17 @@
-.audience_container{
+.audience_container {
     width: 70%;
     margin: auto;
-   justify-content: center;
+    justify-content: center;
     align-content: center;
 
-
-    .audience{
+    .audience {
         display: flex;
-        // justify-content: space-between;
         align-content: center;
         flex-wrap: wrap;
-   
         gap: 2rem;
         width: 100%;
 
-        .aud_left{
+        .aud_left {
             gap: 1rem;
             display: flex;
             flex: 1;
@@ -22,47 +19,34 @@
             justify-content: center;
             align-content: center;
 
-
-            p{
+            p {
                 max-width: 500px;
                 font-weight: 400;
                 line-height: 1.5;
             }
-            h3{
+            h3 {
                 font-size: 2rem;
                 font-weight: 600;
             }
         }
 
-
-        .aud_right{
+        .aud_right {
             max-width: 500px;
-         
-        }
-
-        img{
-        
-            width: 100%
+            img {
+                width: 100%;
+            }
         }
     }
 }
 
 @media only screen and (max-width: 768px) {
-
-
-    .audience_container{
+    .audience_container {
         width: 90%;
 
-
-.aud_left{
-
-    h3{
-        font-size: 30px !important;
-
-
+        .aud_left {
+            h3 {
+                font-size: 30px !important;
+            }
+        }
     }
-}
-
-}
-
 }

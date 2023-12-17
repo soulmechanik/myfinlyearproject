@@ -46,7 +46,7 @@ const HowItWorks = () => {
                 <p>Prior to delivery, projects undergo meticulous quality checks for accuracy, originality, proper citation, and academic compliance. Our focus remains on meeting deadlines while delivering top-quality final drafts that exceed expectations.</p>
               </div>
             </div>
-            {/* Add more boxes as needed */}
+        
           </div>
         </div>
       </div>

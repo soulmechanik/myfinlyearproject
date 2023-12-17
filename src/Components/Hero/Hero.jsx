@@ -19,7 +19,7 @@ const Hero = () => {
           <p className='second_paragraph'>Embark on your final year project journey alongside our dedicated team, where we serve as your reliable allies in writing and research. Our collaborative efforts aim not only for academic excellence but also for smooth and steady progress towards your aspirations. Let's navigate through the complexities of your final year project together, ensuring a successful and fulfilling academic pursuit.</p>
 
           <div className="bottons_Container">
-            <div className="botton1">Get Started</div>
+            <div className="botton1" onClick={handleClick}>Get Started</div>
             <div className="botton2" onClick={handleClick}>
               
               Submit Topic

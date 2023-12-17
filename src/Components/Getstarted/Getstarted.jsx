@@ -2,6 +2,14 @@ import React from 'react'
 import './Getstarted.scss'
 
 const Getstarted = () => {
+
+
+  const handleClick = () => {
+    window.open(
+      'https://wa.me/2348094793447?text=Hello%20MyFyP%2C%20I%20want%20to%20inquire%20about%20Your%20final%20Year%20writing%20Service',
+      '_blank'
+    );
+  };
   return (
    <seciton className="g-wrapper">
 
@@ -13,8 +21,8 @@ const Getstarted = () => {
     Merry XMAS
 
     </span>
-   <button className="button">
-    <a href="mailto:owarotimiadebowale@gmail.com">Submit Topic</a>
+   <button className="button" onClick={handleClick}>
+    <a href="">Submit Topic</a>
    </button>
   </div>
 </div>
